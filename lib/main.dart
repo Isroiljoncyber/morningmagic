@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:jbaza/jbaza.dart';
-import 'package:new_exercise/presentation/routes/routes.dart';
 
 import 'config/theme/themes.dart';
+import 'presentation/routes/routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
     //     statusBarBrightness: Brightness.dark,
     //     statusBarIconBrightness: Brightness.dark));
     return MaterialApp(
-      title: 'Flutter demo',
+      title: 'Morning Magic',
       debugShowCheckedModeBanner: false,
       theme: Themes.lightTheme,
       navigatorKey: navigatorKey,
